@@ -1,0 +1,167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 45;
+	objects = {
+/* Begin PBXBuildFile section */
+		EA9ABD000000000000000000 = {isa = PBXBuildFile; fileRef = 8A57DF800000000000000000; };
+		CEDDE4800000000000000000 = {isa = PBXBuildFile; fileRef = E0BC9AC00000000000000000; };
+		13105C800000000000000000 = {isa = PBXBuildFile; fileRef = F0A393800000000000000000; };
+		DB96AB800000000000000000 = {isa = PBXBuildFile; fileRef = F3D1C5400000000000000000; };
+		196CC0000000000000000000 = {isa = PBXBuildFile; fileRef = C0692D400000000000000000; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D73205800000000000000000 = {isa = PBXFileReference; name = Hello_iPad; path = Hello_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A57DF800000000000000000 = {isa = PBXFileReference; name = Hello_iPadViewController.xib; path = Hello_iPadViewController.xib; sourceTree = "<group>"; };
+		E0BC9AC00000000000000000 = {isa = PBXFileReference; name = Hello_iPadViewController.h; path = Hello_iPadViewController.h; sourceTree = "<group>"; };
+		F0A393800000000000000000 = {isa = PBXFileReference; name = Hello_iPadViewController.m; path = Hello_iPadViewController.m; sourceTree = "<group>"; };
+		F3D1C5400000000000000000 = {isa = PBXFileReference; name = AppDelegate.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0692D400000000000000000 = {isa = PBXFileReference; name = AppDelegate.m; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CD558000000000000000000 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECD35000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				C0692D400000000000000000,
+				F0A393800000000000000000,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47068000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2ECD35000000000000000000,
+				8A57DF800000000000000000,
+				D73205800000000000000000,
+				E0BC9AC00000000000000000,
+				F3D1C5400000000000000000,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6037400000000000000000 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66845000000000000000000;
+			buildPhases = (
+				4CD558000000000000000000,
+				F99ECE800000000000000000,
+				155BA7000000000000000000,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = Hello_iPad;
+			productName = Hello_iPad;
+			productReference = D73205800000000000000000;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8729ADC00000000000000000 = {
+			isa = PBXProject;
+			targets = (
+				DA6037400000000000000000,
+			);
+			buildConfigurationList = 6EEE94000000000000000000;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			productRefGroup = C47068000000000000000000;
+			mainGroup = C47068000000000000000000;
+			projectDirPath = "";
+			projectRoot = "";
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		155BA7000000000000000000 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9ABD000000000000000000,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F99ECE800000000000000000 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDDE4800000000000000000,
+				13105C800000000000000000,
+				DB96AB800000000000000000,
+				196CC0000000000000000000,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5331BB800000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "Info.plist";
+				PRODUCT_NAME = Hello_iPad;
+			};
+			name = MonoTouch;
+		};
+		3774E3000000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A66845000000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5331BB800000000000000000,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6EEE94000000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3774E3000000000000000000,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8729ADC00000000000000000;
+}

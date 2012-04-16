@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hello_iPad/Hello_iPadViewController.cs">
+    <Files>
+      <File FileName="../../../../../[Projects]/[Ravid]/Dev/Ravid/Ravid.Common/BL/Entities/Message.cs" Line="14" Column="41" />
+      <File FileName="Hello_iPad/AppDelegate.cs" Line="20" Column="3" />
+      <File FileName="Hello_iPad/Hello_iPadViewController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Hello_iPad" expanded="True" selected="True">
+            <Node name="Images" expanded="True">
+              <Node name="Icons" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
